@@ -63,7 +63,7 @@ section {
 
 .boton-enviar {
     background-color: var(--rojo-inem);
-    color: pink;
+    color: black;
     padding: 15px;
     border: none;
     border-radius: 8px;
