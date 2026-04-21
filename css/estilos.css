@@ -22,8 +22,56 @@ img {
 }
 
 section {
+    
     background: white;
     margin-top: 20px;
     padding: 20px;
     border-radius: 8px;
+}
+/* Estilos para el Formulario */
+#contacto {
+    background-color: var(--blanco);
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre los campos */
+}
+
+.grupo-entrada {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-entrada label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--azul-inem);
+}
+
+.grupo-entrada input, 
+.grupo-entrada textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.boton-enviar {
+    background-color: var(--rojo-inem);
+    color: pink;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.boton-enviar:hover {
+    background-color: var(--azul-inem);
 }
