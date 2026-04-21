@@ -26,7 +26,29 @@
             <p>Aquí aparecerán mis mejores diseños de Grado 10 y 11</p>
         </section>
     </main>
+<section id="contacto">
+    <h2>Contáctame</h2>
+    <p>¿Tienes un proyecto en mente? Envíame un mensaje:</p>
+    
+    <form action="#" method="POST" class="formulario">
+        <div class="grupo-entrada">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre aquí" required>
+        </div>
 
+        <div class="grupo-entrada">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="usuario@inempasto.edu.co" required>
+        </div>
+
+        <div class="grupo-entrada">
+            <label for="mensaje">Mensaje o Idea del Proyecto:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntame sobre tu idea..." required></textarea>
+        </div>
+
+        <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+    </form>
+</section>
     <footer>
         <p>Contacto: mi-correo@ejemplo.com</p>
     </footer>
