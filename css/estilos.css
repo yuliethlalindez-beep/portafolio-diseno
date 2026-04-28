@@ -39,7 +39,7 @@ section {
 .formulario {
     display: flex;
     flex-direction: column;
-    gap: 50px; /* Espacio entre los campos */
+    gap: 15px; /* Espacio entre los campos */
 }
 
 .grupo-entrada {
